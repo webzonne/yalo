@@ -1,0 +1,101 @@
+#default1.prefault1{
+    opacity: 0;
+    transform: translateX(-312px);
+    transition: .7s ease-in-out all;
+}
+
+#default1.animation{
+    opacity: 1;
+    transform: translateX(0px);
+    
+}
+
+/* -----------------------------------------*/
+
+#default2.prefault2{
+    opacity: 0;
+    transform: translateX(312px);
+    transition: .7s ease-in-out all;
+    
+}
+
+
+#default2.animation{
+    opacity: 1;
+    transform: translateX(0px);
+    
+}
+
+/* -----------------------------------------*/
+
+
+#default3.prefault3{
+    opacity: 0;
+    transform: translateX(-312px);
+    transition: .7s ease-in-out all;
+   
+}
+
+#default3.animation{
+    opacity: 1;
+    transform: translateX(0px);
+   
+}
+
+/* -----------------------------------------*/
+
+#nom1{
+  opacity: 0;
+  transform: translateY(-100px);
+}
+
+#nom1.tarjeta1{
+    transition: .7s ease-in-out all;
+    transition-delay: .1s;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/* -----------------------------------------*/
+
+#nom2{
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  
+  #nom2.tarjeta2{
+    transition: .7s ease-in-out all;
+    transition-delay: .4s;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+/* -----------------------------------------*/
+
+#nom3{
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  
+  #nom3.tarjeta3{
+    transition: .7s ease-in-out all;
+    transition-delay: .7s;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+/* -----------------------------------------*/
+
+#nom4{
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  
+  #nom4.tarjeta4{
+    transition: .7s ease-in-out all;
+    transition-delay:1s;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+

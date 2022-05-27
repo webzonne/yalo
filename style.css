@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Marketing{
+    background-color: #1b0d64;
+    padding: 80px 0px;
+    background-image:url("https://assets.website-files.com/5cabb6794998de00739f1740/5f85d9ea61966f25f2bed776_quarter_circle.svg");
+    background-position: 100% 100%;
+    background-size: 33%;
+    background-repeat: no-repeat;
+}
+
+.Marketing article h1{
+    color: white;
+}
+.content{
+    width: 95%;
+    margin: auto;
+}
+.img-yalo{
+    margin-bottom: 20px;
+}
+.card{
+    color: black;
+    background: white;
+    padding: 40px 40px!important;
+}
+.card .content-img{
+    text-align: left;
+}
+.card img{
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+.card p{
+    margin-top: 20px;
+    color: black;
+    font-size: 14px;  
+}
+.card .line{
+    background:#5a55f2;
+    width: 20px;
+    height: 1px; 
+}
+.card .minip{
+    font-size: 13;
+    color: rgba(50,51,90,.65);
+}
+
+/*SECCION CUSTOMERS*/
+
+.Customers{
+    padding: 80px;
+    text-align: center;
+}
+.Customers .content-img{
+    margin-bottom: 20px;
+}
+.Customers h2{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+
+.Customers-articulos{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.Customers-articulos article{
+    width: 22%;
+    min-width: 215px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Customers-articulos article .porcentaje{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Customers-articulos article h3{
+    color: #5a55f2;
+    margin: 30px 0;
+}
+.Customers-articulos article p{
+    font-size: 14px;
+    color: #32335a;
+}
+
+/*HOVER*/
+.cout{
+    transition: ease-in-out .1s;
+    cursor: pointer;
+}
+.cout:hover{
+    transform: scale(1.1);
+    z-index: 100;
+}
